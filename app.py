@@ -1,14 +1,7 @@
 from flask import Flask, render_template
 
-
 app = Flask(__name__, template_folder='.', static_folder='.')
 
-@app.route('/')
-def home():
-    return render_template('pasaji_n4_v4.html')
-
-if __name__ == '__main__':
-    app.run()
 PRODUCTS = [
     {
         "id": 1,
@@ -54,7 +47,7 @@ PRODUCTS = [
 
 @app.route('/')
 def home():
-    return render_template('index.html', products=PRODUCTS)
+    return render_template('pasaji_n4_v4.html', products=PRODUCTS)
 
 if __name__ == '__main__':
     app.run(debug=True)
