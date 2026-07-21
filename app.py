@@ -8,7 +8,7 @@ PRODUCTS = [
         "title": "Tommy Jeans T-Shirt",
         "category": "კაცის · მაისური",
         "badge": "ახალი",
-        "badge_class": "badge-black",
+        "badge_class": "badge-new",
         "sizes": "S · M · L · XL · XXL",
         "price": "70",
         "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500"
@@ -18,7 +18,7 @@ PRODUCTS = [
         "title": "Slim Tailored Trousers",
         "category": "შარვლები · კლასიკური",
         "badge": "BEST SELLER",
-        "badge_class": "badge-gold",
+        "badge_class": "badge-bestseller",
         "sizes": "S · M · L · XL · XXL",
         "price": "80",
         "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500"
@@ -28,7 +28,7 @@ PRODUCTS = [
         "title": "Linen Relaxed Trousers",
         "category": "შარვლები · ლოფერი",
         "badge": "BEST SELLER",
-        "badge_class": "badge-gold",
+        "badge_class": "badge-bestseller",
         "sizes": "XS · S · M · L · XL",
         "price": "80",
         "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500"
@@ -38,7 +38,7 @@ PRODUCTS = [
         "title": "Jil Sander Oversized Tee",
         "category": "კაცის · მაისური",
         "badge": "BEST SELLER",
-        "badge_class": "badge-gold",
+        "badge_class": "badge-bestseller",
         "sizes": "S · M · L · XL · XXL",
         "price": "70",
         "image": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500"
