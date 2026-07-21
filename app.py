@@ -1,8 +1,14 @@
 from flask import Flask, render_template
 
-app = Flask(__name__)
 
-# პროდუქტების მონაცემები (სურათების ლინკებით)
+app = Flask(__name__, template_folder='.', static_folder='.')
+
+@app.route('/')
+def home():
+    return render_template('pasaji_n4_v4.html')
+
+if __name__ == '__main__':
+    app.run()
 PRODUCTS = [
     {
         "id": 1,
