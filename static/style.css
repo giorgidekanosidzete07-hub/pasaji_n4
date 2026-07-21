@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans Georgian', sans-serif;
+    background-color: #fcfbf9;
+    color: #1a1a1a;
+}
+
+/* ნავიგაცია */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #fcfbf9;
+}
+
+.logo {
+    font-family: 'Cinzel', serif;
+    font-size: 22px;
+    letter-spacing: 3px;
+    color: #a68a56;
+}
+
+.nav-links a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #000;
+}
+
+/* Hero სექცია */
+.hero {
+    position: relative;
+    height: 85vh;
+    background: url('https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1600') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.subtitle {
+    color: #d4af37;
+    letter-spacing: 3px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.brand-title {
+    font-family: 'Cinzel', serif;
+    font-size: 56px;
+    font-weight: 400;
+}
+
+.hero-heading {
+    font-size: 64px;
+    font-weight: 300;
+    color: #d4af37;
+    margin-bottom: 15px;
+}
+
+.tags {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 12px 30px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 1px;
+    background: rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+/* პროდუქტების სექცია */
+.products-section {
+    padding: 60px 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/* ფილტრი */
+.filter-bar {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #e5e5e5;
+    max-width: 700px;
+    margin: 0 auto 50px auto;
+}
+
+.filter-btn {
+    flex: 1;
+    padding: 12px 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    color: #666;
+    border-right: 1px solid #e5e5e5;
+    transition: background 0.3s, color 0.3s;
+}
+
+.filter-btn:last-child {
+    border-right: none;
+}
+
+.filter-btn.active {
+    background-color: #a68a56;
+    color: #fff;
+}
+
+/* პროდუქტების ბადე */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background: #fff;
+    text-align: left;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 4px 10px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.badge-black {
+    background-color: #222;
+}
+
+.badge-gold {
+    background-color: #a68a56;
+}
+
+.product-info {
+    padding: 15px 5px;
+}
+
+.category {
+    font-size: 11px;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.product-title {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: #222;
+}
+
+.sizes {
+    font-size: 11px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1a1a1a;
+}
